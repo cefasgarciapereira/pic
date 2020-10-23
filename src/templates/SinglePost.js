@@ -13,7 +13,8 @@ export const SinglePostTemplate = ({
   body,
   nextPostURL,
   prevPostURL,
-  categories = []
+  categories = [],
+  authors
 }) => (
   <main>
     <article
@@ -60,6 +61,9 @@ export const SinglePostTemplate = ({
           )}
 
           <div className="SinglePost--InnerContent">
+            {authors && (
+              <p style={{fontSize: '1.2rem'}}>{authors}</p>
+            )}
             <Content source={body} />
           </div>
 
@@ -126,6 +130,7 @@ export const pageQuery = graphql`
         categories {
           category
         }
+        authors
       }
     }
 
