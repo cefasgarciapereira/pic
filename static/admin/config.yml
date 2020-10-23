@@ -289,17 +289,6 @@ collections: # A list of collections the CMS should be able to edit
     fields: # The fields each document in this collection have
       - { label: Template, name: template, widget: hidden, default: SinglePost }
       - { label: Title, name: title, widget: string }
-      - label: 'Authors'
-        name: 'authors'
-        widget: 'list'
-        required: false
-        fields:
-          - label: 'Authors'
-            name: 'authors'
-            widget: 'relation'
-            collection: 'authors'
-            searchFields: ['name']
-            valueField: 'name'
       - label: 'Status'
         name: 'status'
         widget: 'select'
@@ -325,6 +314,17 @@ collections: # A list of collections the CMS should be able to edit
             collection: 'postCategories'
             searchFields: ['title']
             valueField: 'title'
+      - label: 'Authors'
+        name: 'authors'
+        widget: 'list'
+        required: false
+        fields:
+          - label: 'Author'
+            name: 'author'
+            widget: 'relation'
+            collection: 'authors'
+            searchFields: ['name']
+            valueField: 'name'
       - label: 'Meta'
         required: false
         name: 'meta'
