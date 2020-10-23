@@ -14,7 +14,7 @@ export const SinglePostTemplate = ({
   nextPostURL,
   prevPostURL,
   categories = [],
-  authors
+  authors = []
 }) => (
   <main>
     <article
@@ -48,6 +48,22 @@ export const SinglePostTemplate = ({
                     {cat.category}
                     {/* Add a comma on all but last category */}
                     {index !== categories.length - 1 ? ',' : ''}
+                  </span>
+                ))}
+              </Fragment>
+            )}
+
+            {authors && (
+              <Fragment>
+                <span>|</span>
+                {authors.map((cat, index) => (
+                  <span
+                    key={cat.author}
+                    className="SinglePost--Meta--Category"
+                  >
+                    {cat.author}
+                    {/* Add a comma on all but last category */}
+                    {index !== authors.length - 1 ? ',' : ''}
                   </span>
                 ))}
               </Fragment>
@@ -126,6 +142,9 @@ export const pageQuery = graphql`
         date(formatString: "MMMM Do, YYYY")
         categories {
           category
+        }
+        authors{
+          author
         }
       }
     }
