@@ -2,10 +2,13 @@
 template: HomePage
 slug: ""
 title: Pensamento, Ideia e Cinema
-featuredImage: https://ucarecdn.com/957d375e-2f12-46d5-9c40-1d6a5ff38905/
+featuredImage: https://ucarecdn.com/05ac9573-9841-4c8a-b39f-294699cf23f4/-/preview/
 subtitle: ""
 meta:
   description: This is a meta description.
   title: The Ultimate Gatsby Starter
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+> “Parece que temos uma compulsão atualmente em enterrar cápsulas do tempo para dar às pessoas do próximo século alguma idéia do que somos. Eu preparei uma das minhas próprias cápsulas do tempo. Coloquei umas amostras de dinamite, pólvora e nitroglicerina. Minha cápsula do tempo vai até o ano 3000. Ela mostrará a eles o que realmente somos.”
+> ALFRED HITCHCOCK
