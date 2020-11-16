@@ -2,7 +2,7 @@
 template: HomePage
 slug: ""
 title: Pensamento, Ideia e Cinema
-featuredImage: https://ucarecdn.com/05ac9573-9841-4c8a-b39f-294699cf23f4/-/preview/
+featuredImage: https://ucarecdn.com/c14173bf-4055-4ce8-a024-fb58aed187aa/
 subtitle: ""
 meta:
   description: This is a meta description.
