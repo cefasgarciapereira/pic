@@ -5,7 +5,8 @@ status: Published
 date: 2020-11-16
 featuredImage: https://ucarecdn.com/6c0360f8-4c67-4297-8bf7-18af38eb5168/
 excerpt: Aprenda sobre o cinema na decada de 30
-categories: []
+categories:
+  - category: ESPECIAL PICASSO
 meta:
   title: Cinema na década de 30
   description: Aprenda sobre o cinema na decada de 30
