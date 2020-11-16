@@ -1,10 +1,11 @@
 ---
 template: BlogIndex
 slug: blog
-title: Blog Page
-featuredImage: 'https://ucarecdn.com/b6254577-26bf-4b79-aa9b-f3793e2aebdc/'
-subtitle: This is the blog page subtitle.
+title: Publicações
+featuredImage: https://ucarecdn.com/6d456c6c-1773-4132-9998-89eccf9e284d/
+subtitle: Aqui se encontram todos os textos publicados no site. Caso queira
+  filtrar sua busca, clique no assunto desejado.
 meta:
-  description: This is a meta description.
-  title: Blog Page
+  description: Todas publicações do site, sem filtros.
+  title: Publicações
 ---
