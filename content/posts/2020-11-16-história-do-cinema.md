@@ -6,6 +6,7 @@ date: 2020-11-16
 excerpt: Este texto apresentará a história do cinema mudo e falado
 categories:
   - category: DOSSIÊ
+  - category: Esdras Garcia Pereira
 authors:
   - author: Esdras Garcia Pereira
   - author: Cefas Garcia Pereira
