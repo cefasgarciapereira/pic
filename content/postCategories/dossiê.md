@@ -1,4 +1,4 @@
 ---
 template: BlogIndex
-title: DOSSIÊ
+title: Dossiê
 ---
